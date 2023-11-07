@@ -7,7 +7,7 @@ test('Contar vocales mayúsculas en una cadena', () => {
 
 test('Contar vocales mayúsculas en una cadena', () => {
     expect(valide('Hola')).toBe(2); 
-    expect(valide('Miguel')).toBe(2); 
+    expect(valide('Miguel')).toBe(0); 
     expect(valide('')).toBe(0); 
   })
 
